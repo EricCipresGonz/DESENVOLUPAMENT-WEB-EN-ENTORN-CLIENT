@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="script.js"></script>
+<title>TLista</title>
+</head>
+<body>
+<div class="container">
+    <h1>Lista</h1>
+    <input type="text" id="myInput" oninput="myFunction()">
+    <input type="text" id="taskInput" placeholder="Nueva tarea">
+    <button id="addTask">Afegir tasca</button>
+    <ul id="taskList"></ul>
+</div>
+<template id="template">
+    <li id="">
+<input type="checkbox">
+    <label class="valor"></label>
+    <button class="removeTask">Eliminar</button>
+    </li>
+</template>
+</body>
+</html>
